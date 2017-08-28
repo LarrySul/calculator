@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Author" content="DonKristizy">
+    <meta name="Description" content="A sample page for Tizycorp Material Design">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="css/calculator.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+  <body>  
+  	<div class="col s12" style="background-color: #fff">
+  		<form name="frm" id="frm">     
+  	   <input type ="text" name="total" class="total" placeholder="0">
+  		</form>
+      </div>
+      <hr>
+      <div style="background: url('./img/background.png');">
+      <input type="button" value="7" onClick="run7()">
+      <input type="button" value="8" onClick="run8()">
+      <input type="button" value="9" onClick="run9()">
+      <input type="button" value="DEL" onClick="reset()" id="side">
+      <p>
+      <input type="button" value="4" onClick="run4()"> 
+      <input type="button" value="5" onClick="run5()">
+      <input type="button" value="6" onClick="run6()">
+      <input type="button" value="÷" onClick="divide()" id="side">
+      </p>
+      <p>
+      <input type="button" value="1" onClick="run1()">
+      <input type="button" value="2" onClick="run2()">
+      <input type="button" value="3" onClick="run3()">
+      <input type="button" value="x" onClick="multiply()" id="side">
+      </p>
+      <p>
+      <input type="button" value="." onClick="dot()">
+      <input type="button" value="0" onClick="run0()">
+      <input type="button" value="=" onClick="equals()" >
+
+      <input type="button" value="-" onClick="minus()" id="side">
+      </p>
+      <ul id="slide-outs" class="side-nav" style="background:#ff3300;">
+        <input type="button" value="sin" onClick="sin()">
+        <input type="button" value="cos" onClick="cos()">
+        <input type="button" value="tan" onClick="tan()">
+        <br>
+        <input type="button" value="e" onClick="exp()">
+        <input type="button" value="√" onClick="sqrt()">
+        <input type="button" value="log" onClick="log()">
+        <br>
+        <input type="button" value="^" onClick="sqar()">
+        <input type="button" value="π" onClick="Pi()">
+        <input type="button" value="!" onClick="fact()">
+        <br>
+        <input type="button" value="(" onClick="bra()">
+        <input type="button" value=")" onClick="bra2()">
+        <input type="button" value="r" onClick="round()">
+        <br>
+        <button type="button" onClick="acos()">cos<sup>-1</sup></button>
+        <button type="button" onClick="asin()">sin<sup>-1</sup></button>
+        <button type="button" onClick="atan()">tan<sup>-1</sup></button>
+      </ul>
+      <input type="button" value="»" data-activates="slide-outs" class="button-collapses" id="equals">
+      <input type="button" value="+" onClick="plus()" id="side" style="margin-bottom: 27px">
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/calculator.js"></script>
+  </body>
+</html>
+
+
+

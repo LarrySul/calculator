@@ -1,0 +1,117 @@
+*{
+  margin: 0px auto;
+  padding: 0px auto;
+  text-align:center;
+  font-family: Brush Script MT;
+}
+p{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background:rgba(0,51,51,0.1);
+}
+button[type="button"]{
+  border-color:none;
+  background-color: #ff3300;
+  border-style: none;
+  height: 70px;
+  font-size: 25px ;
+  color: #fff;
+}
+input[type="button"],input[type="button"]:hover,input[type="button"]:focus{
+  border:0 0 0 0;
+  border-style: none;
+  height: 70px;
+}
+input[type="text"]{
+  border: none;
+}
+input{
+  /*border: 1px solid #bdc3c7;*/
+  color: #fff;
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-right: 5px;
+  margin-left: 5px; /*top right bottom left*/
+  font-weight: 700;
+  background: none;
+  padding: 5px 10px; 
+  font-size: 20px;
+}
+input:hover,input:active{
+  background: none;
+  box-shadow: none;
+  border: none;
+  color: #000; 
+}
+input.total:hover,input.total:active{
+  background: #fff;
+  box-shadow: none;
+  border: none;
+  color: #000; 
+}
+#equals{
+  width: 200px;
+  color: #fff;
+}
+#equals:hover{
+  background: transparent;
+  color:#555;
+}
+#equals:active{
+  background: #fff;
+}
+input.total{
+    background: #fff;
+    text-align: right;
+    width: 260px;
+    height: 206px;
+    /*margin: 15px auto;
+    padding: 10px;*/
+    font-size: 40px;
+    color: #555;
+  }
+#side{
+  height: 50px;
+  margin: 0 0 0 0;
+  background-color: green;
+}
+#clear{
+  background: red;
+  color:#fff;
+}
+#number{
+  background-color: blue
+}
+ul.side-nav {
+    position: fixed;
+    width: 240px;
+    left: -65%;
+    top: 225px;
+    margin: 0px;
+    height: calc(80% + 0px);
+    padding-bottom: 0px;
+    color: #95a5a6;
+    z-index: 999;
+}
+ul.side-nav li {
+    float: none;
+    padding: 0px 15px;
+    margin-top: 25px;
+}
+.btn{
+    color: #95a5a6;
+    background-color: rgba(255,255,255,0.3);
+    top: 5px;
+    border-radius: 4px;
+}
+.btn:hover, .btn-large:hover {
+    background-color:rgba(255,255,255,0.3) ;
+}
+nav {
+    color: #95a5a6;
+    background-color: rgba(0,102,102,0.1);
+}
